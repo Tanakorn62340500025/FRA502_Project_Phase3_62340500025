@@ -9,4 +9,10 @@ Author : Tanakorn Teerabundit 62340500025
 
 3.ทำการ launch ไฟล์ต่างๆ
 
-    3.1
+    3.1ทำการ roslaunch banks_dd bankgazebo.launch
+    3.2ทำการ roslaunch banks_dd bankspawn.launch
+    3.3ทำการ roslaunch banks_dd banknavigation.launch
+    3.4ทำการ roslaunch banks_dd bankrviz.launch
+    3.5ทำการ rosrun banks_dd Goaltostation.py
+
+4.
