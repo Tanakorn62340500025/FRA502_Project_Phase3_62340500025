@@ -1,6 +1,6 @@
 # FRA502_Project_Phase3_62340500025
 
-## Author : 
+## Author
 
 Name Tanakorn Teerabundit 62340500025
 
@@ -12,15 +12,15 @@ Name Tanakorn Teerabundit 62340500025
 
 3.ทำการ launch ไฟล์ต่างๆ
 
-    3.1ทำการ roslaunch banks_dd bankgazebo.launch หลังจากนั้นจะขึ้น
+    3.1ทำการ roslaunch banks_dd bankgazebo.launch เพื่อทำการเปิด world ใน gazebo
 
-    3.2ทำการ roslaunch banks_dd bankspawn.launch
+    3.2ทำการ roslaunch banks_dd bankspawn.launch เพื่อทำการ spawn หุ่นยนต์
 
-    3.3ทำการ roslaunch banks_dd banknavigation.launch
+    3.3ทำการ roslaunch banks_dd banknavigation.launch เพื่อ navigation
 
-    3.4ทำการ roslaunch banks_dd bankrviz.launch
+    3.4ทำการ roslaunch banks_dd bankrviz.launch เพื่อเปิดมาดูตัวหุ่นยนต์ เเผนที่ laser เเละอื่นๆ
 
-    3.5ทำการ rosrun banks_dd Goaltostation.py
+    3.5ทำการ rosrun banks_dd Goaltostation.py เพื่อทำการใช้ speech recognition ในการสั่งหุ่นยนต์ให้หุ่นยนต์เดินไปเสิร์ฟกาเเฟที่ห้องต่างๆ
 
 4.เมื่อ rosrun banks_dd Goaltostation.py ใน Terminal จะขึ้นว่า Going to Charger_Station For Sethome นั้นเเปลว่าหุ่นยนต์จะไปที่ state เเรกสุดนั้นคือหุ่นยนต์จะกลับ Charger_Station เพื่อรอการเสิร์ฟกาเเฟ
 
@@ -42,3 +42,6 @@ Name Tanakorn Teerabundit 62340500025
 
 9.เมื่อหุ่นยนต์ถึง Charger_Station ที่ Terminal จะขึ้นเเจ้งเตือนว่า Reached At The Charger_Station เพื่อรอคำสั่งในการเสิร์ฟกาเเฟต่อไป
 
+## สรุป
+
+การที่ผมได้ทำ Project ทำให้ผมเข้าใจเนื้อหาเนื้อหาที่อาจารย์สอนมากขึ้นเเละที่มากไปกว่านั้นคือผมสามารถนำสิ่งที่่อาจารย์สอนไปประยุกต์ใช้ในการทำหุ่นยนต์จริงๆมันจึงทำให้ผมเข้าใจ process การทำงานหลายๆส่วนตั้งเเต่การสร้างหุ่นยนต์ด้วย file .urdf ทำให้ผมได้เข้าใจการสร้างหุ่นยนต์ การออกเเบบหุ่นยนต์ การปรับเเต่งน้ำหนักให้เหมาะสมกับชิ้นส่วนต่างๆในตัวหุ่นยนต์ 
