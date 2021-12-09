@@ -33,4 +33,9 @@ Author : Tanakorn Teerabundit 62340500025
     
     6.4พูดว่า "ห้องใหญ่" หุ่นยนต์ก็จะเดินไปเสิร์ฟกาเเฟที่ห้องใหญ่ เเละขึ้นที่ terminal ว่า Going toRoom_main
 
-7.หุ่นยนต์จะรอผู้บริโภค
+7.เมื่อหุ่นยนต์มาถึงห้องตามคำสั่งที่ terminal ก็จะขึ้นว่า Reached At The Room That You Want เเละที่ terminal จะขึ้นว่า Customer Can Keep The Coffee เพื่อบอกว่าลูกค้าสามารถหยิบกาเเฟได้เลยเเละจะเเจ้งเตือนต่อไปอีกว่า The Robot Will Back To The Charger_Station In 10 Seconds เพื่อบอกผู้บริโภคว่าหุ่นยนต์จะกลับ Charger_Station อีก 10 วินาที
+
+8.เมื่อครบ 10 วินาทีหุ่นยนต์จะกลับ Charger_Station โดยจะขึ้นเเจ้งเตือนว่า Going to Charger_Station For Sethome
+
+9.เมื่อหุ่นยนต์ถึง Charger_Station ที่ Terminal จะขึ้นเเจ้งเตือนว่า Reached At The Charger_Station เพื่อรอคำสั่งในการเสิร์ฟกาเเฟต่อไป
+
