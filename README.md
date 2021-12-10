@@ -6,9 +6,9 @@ Name Tanakorn Teerabundit 62340500025
 
 ## วิธีการใช้งาน
 
-1.ทำการ cd Project/DiffBot/src
+1.ทำการ cd DiffBot/src
 
-2.ทำการ source $HOME/Project/DiffBot/devel/setup.bash
+2.ทำการ source $HOME/DiffBot/devel/setup.bash
 
 3.ทำการ launch ไฟล์ต่างๆ
 
