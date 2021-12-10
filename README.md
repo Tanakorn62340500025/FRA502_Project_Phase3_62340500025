@@ -4,11 +4,15 @@
 
 Name Tanakorn Teerabundit 62340500025
 
+## Video Link
+
+https://drive.google.com/drive/folders/1KtgHqf9RAPCJ93YIq2oLgTcwOQS8pVCZ?usp=sharing
+
 ## วิธีการใช้งาน
 
-1.ทำการ cd DiffBot/src
+1.ทำการ cd catkin_ws
 
-2.ทำการ source $HOME/DiffBot/devel/setup.bash
+2.ทำการ source devel/setup.bash
 
 3.ทำการ launch ไฟล์ต่างๆ
 
